@@ -1,0 +1,131 @@
+
+body{
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+  margin: 0px;
+}
+footer{
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(127, 135, 247, 0.514);
+  position: sticky;
+  top:0;
+  padding:10px;
+  background: lightblue;
+  text-align: center;
+}
+opening{
+  display: flex;
+  background-color: bisque;
+
+  
+}
+ul {
+  list-style-type: none;
+  display: flex;
+ }
+ li{
+  margin: 30px;
+  font-size: 24px;
+ }
+
+opening-text{
+  display: flex;
+  flex-direction: column;
+  font-family: "Lucida Console", "Courier New", monospace;
+  margin: 100px;
+
+}
+opening{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+p1{
+  font-weight: 800;
+  font-size: 24px;
+  margin: 5px;
+}
+p2{
+  margin: 5px;
+  margin-bottom: 20px;
+
+}
+testimony{
+  display: flex;
+}
+subscribe{
+  display: flex;
+}
+button {
+  transition-duration: 0.4s;
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.4s;
+}
+
+
+.info{
+  max-width: 200px;
+  
+  color: aliceblue;
+}
+.container {
+  display: flex;
+  
+  justify-content: center;
+  gap: 200px;
+  padding: 50px;
+  background-color: #0f110f;
+}
+testimony{
+  padding:100px;
+  background-color: rgb(150, 107, 54);
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+p4{
+  padding: 20px;
+  margin-left: 20px;
+  font-size: 20px;
+}
+p3{
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size: 40px;
+}
+
+button:hover {
+  background-color: #2e26a1; /* Green */
+  color: white;
+}
+subscribe{
+  justify-content: center;
+  padding: 60px;
+  background-color: rgb(60, 62, 180);
+}
+
+box{
+  display: flex;
+  flex-direction: column;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size: 40px;
+  background-color: rgb(216, 36, 81);
+  padding: 50px;
+}
+.two{
+ display: flex;
+
+
+font-size: 40px;
+justify-content: center;
+align-items: center;
+
+}
